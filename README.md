@@ -1,6 +1,6 @@
 # Advanced-Computer-Architecture
 
-##Advanced Computer Architecture, 2018
+## Advanced Computer Architecture, 2018
 
 **Teaching Staff**
   - Prof. Jeong-Gun Lee
