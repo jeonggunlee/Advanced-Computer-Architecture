@@ -26,3 +26,8 @@ Welcome to Advanced Computer Architecture. In this class, we learn internal stru
 6. **Design of Manycore MIPS Processor with Shared Memory**
     - Synchronization and Data Communication via a Shared Memory
 7. **Design of Manycore MIPS Processor with On-Chip Network**
+
+
+
+
+* https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
