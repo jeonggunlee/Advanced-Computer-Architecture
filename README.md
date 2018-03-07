@@ -11,7 +11,10 @@ Time & Place
 
 Welcome to Advanced Computer Architecture. In this class, we learn internal structure of a modern computer architecture and how to implement the architecture using Verilog HDL on an FPGA.
 
-1. Review of Computer Architecture (MIPS Processor Architecture, Single Cycle MIPS Processor)
+1. Review of Computer Architecture
+    - MIPS Processor Architecture
+    - Simple MIPS Instrucion Set
+    - Single Cycle MIPS Processor
 2. Verilog HDL, a Hardware Description Language (HDL)
 3. Introduction to an FPGA and Logic Implementation on an FPGA (Intel FPGA Board)
     - Intel Quartus II CAD Tool
