@@ -1,0 +1,81 @@
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x0f08cc80: ace_acv + 0x8cc80 (?had_lfp_msgs@ACV_MSG_GEN_LOC_VISITOR@@QBE_NXZ + 0x421f0)
+	0x0f0ac678: ace_acv + 0xac678 (?had_lfp_msgs@ACV_MSG_GEN_LOC_VISITOR@@QBE_NXZ + 0x61be8)
+	0x0f08e6df: ace_acv + 0x8e6df (?had_lfp_msgs@ACV_MSG_GEN_LOC_VISITOR@@QBE_NXZ + 0x43c4f)
+	0x69b58e56: mfc90 + 0x58e56
+	0x69b73775: mfc90 + 0x73775
+	0x69b5cd31: mfc90 + 0x5cd31
+	0x69b5cdd3: mfc90 + 0x5cdd3
+	0x69b5b395: mfc90 + 0x5b395
+	0x69b5bf8b: mfc90 + 0x5bf8b
+	0x100062ac: GCL_AFC + 0x62ac (?OnWndMsg@AFC_NESTED_FRAME@@UAEHIIJPAJ@Z + 0x3c)
+	0x69b5ba48: mfc90 + 0x5ba48
+	0x0f005174: ace_acv + 0x5174
+	0x69b5a63c: mfc90 + 0x5a63c
+	0x69b5a8c8: mfc90 + 0x5a8c8
+	0x69b585b2: mfc90 + 0x585b2
+	0x763662f9: USER32 + 0x162f9 (gapfnScSendMessage + 0x331)
+	0x76367315: USER32 + 0x17315 (GetDC + 0x51)
+	0x76366de7: USER32 + 0x16de7 (GetThreadDesktop + 0x184)
+	0x76379855: USER32 + 0x29855 (MapVirtualKeyExW + 0x4e9)
+	0x77600119: ntdll + 0x10119 (KiUserCallbackDispatcher + 0x2d)
+	0x763696c4: USER32 + 0x196c4 (SendMessageW + 0x4b)
+	0x71f528ec: COMCTL32 + 0x628ec (_TrackMouseEvent + 0x2d020)
+	0x71f42898: COMCTL32 + 0x52898 (_TrackMouseEvent + 0x1cfcc)
+	0x71f4746d: COMCTL32 + 0x5746d (_TrackMouseEvent + 0x21ba1)
+	0x71f47fd9: COMCTL32 + 0x57fd9 (_TrackMouseEvent + 0x2270d)
+	0x71f4a278: COMCTL32 + 0x5a278 (_TrackMouseEvent + 0x249ac)
+	0x763662f9: USER32 + 0x162f9 (gapfnScSendMessage + 0x331)
+	0x76366d39: USER32 + 0x16d39 (GetThreadDesktop + 0xd6)
+	0x76370d26: USER32 + 0x20d26 (GetClientRect + 0xc4)
+	0x76377949: USER32 + 0x27949 (CallWindowProcA + 0x1a)
+	0x69b5b147: mfc90 + 0x5b147
+	0x69b5ba5f: mfc90 + 0x5ba5f
+	0x69b5a63c: mfc90 + 0x5a63c
+	0x69b5a8c8: mfc90 + 0x5a8c8
+	0x69b585b2: mfc90 + 0x585b2
+	0x763662f9: USER32 + 0x162f9 (gapfnScSendMessage + 0x331)
+	0x76367315: USER32 + 0x17315 (GetDC + 0x51)
+	0x76366de7: USER32 + 0x16de7 (GetThreadDesktop + 0x184)
+	0x76366e43: USER32 + 0x16e43 (GetThreadDesktop + 0x1e0)
+	0x77600119: ntdll + 0x10119 (KiUserCallbackDispatcher + 0x2d)
+	0x71f45d3e: COMCTL32 + 0x55d3e (_TrackMouseEvent + 0x20472)
+	0x71f45df8: COMCTL32 + 0x55df8 (_TrackMouseEvent + 0x2052c)
+	0x71f49d36: COMCTL32 + 0x59d36 (_TrackMouseEvent + 0x2446a)
+	0x763662f9: USER32 + 0x162f9 (gapfnScSendMessage + 0x331)
+	0x76366d39: USER32 + 0x16d39 (GetThreadDesktop + 0xd6)
+	0x76370d26: USER32 + 0x20d26 (GetClientRect + 0xc4)
+	0x76377949: USER32 + 0x27949 (CallWindowProcA + 0x1a)
+	0x69b5b147: mfc90 + 0x5b147
+	0x69b5ba5f: mfc90 + 0x5ba5f
+	0x69b5a63c: mfc90 + 0x5a63c
+	0x69b5a8c8: mfc90 + 0x5a8c8
+	0x69b585b2: mfc90 + 0x585b2
+	0x763662f9: USER32 + 0x162f9 (gapfnScSendMessage + 0x331)
+	0x76366d39: USER32 + 0x16d39 (GetThreadDesktop + 0xd6)
+	0x76366de7: USER32 + 0x16de7 (GetThreadDesktop + 0x184)
+	0x76366e43: USER32 + 0x16e43 (GetThreadDesktop + 0x1e0)
+	0x77600119: ntdll + 0x10119 (KiUserCallbackDispatcher + 0x2d)
+	0x763910d2: USER32 + 0x410d2 (CreateDialogIndirectParamAorW + 0x32)
+	0x7637b043: USER32 + 0x2b043 (CreateDialogIndirectParamA + 0x1a)
+	0x69b7772c: mfc90 + 0x7772c
+	0x69b775c2: mfc90 + 0x775c2
+	0x69b77571: mfc90 + 0x77571
+	0x69b77528: mfc90 + 0x77528
+	0x0f004feb: ace_acv + 0x4feb
+	0x0f02c1fc: ace_acv + 0x2c1fc
+	0x69b5c0b4: mfc90 + 0x5c0b4
+	</callstack>
+	<error>Current editor: RPW, ASE</error>
+	<date>Fri Oct 21 15:36:45 2011</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition</version>
+	<full_error>Access Violation at 0X0F08CC80
+Current editor: RPW, ASE
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition </full_error>
+</internal_error>
+
