@@ -16,7 +16,7 @@ Welcome to Advanced Computer Architecture. In this class, we learn an internal s
     - Simple MIPS Instrucion Set
     - Single Cycle MIPS Processor
 2. **[Verilog HDL](https://en.wikipedia.org/wiki/Verilog)([한글버전](https://ko.wikipedia.org/wiki/%EB%B2%A0%EB%A6%B4%EB%A1%9C%EA%B7%B8)), a Hardware Description Language (HDL)**
-    - Verilog HDL Basic @ Altera [LINK](https://www.youtube.com/watch?v=PJGvZSlsLKs)
+    - Altera Verilog HDL Basic @ Youtube [LINK](https://www.youtube.com/watch?v=PJGvZSlsLKs)
 3. **Introduction to an FPGA and Logic Implementation on an FPGA (Intel FPGA Board)**
     - Intel Quartus II CAD Tool [Download Site](https://www.altera.com/downloads/download-center.html)
     - ModelSim Simulator
