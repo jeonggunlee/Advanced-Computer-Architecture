@@ -26,7 +26,10 @@ Welcome to Advanced Computer Architecture. In this class, we learn an internal s
 4. **Design of a Single-Cycle MIPS Processor in Verilog HDL** ([Verilog Source](https://github.com/jeonggunlee/Advanced-Computer-Architecture/tree/master/single_cycle_mips))
 5. **Design of Pipelined MIPS Processor**
 6. **Design of Manycore MIPS Processor with Shared Memory** ([Verilog Source](https://github.com/jeonggunlee/Advanced-Computer-Architecture/tree/master/single_cycle_manycore))
-    - Synchronization and Data Communication via a Shared Memory
+    - Use a simplified shared memory.
+    - Assume a compiler put a NOP to synchronize the operations among cores.
+    - Simple arbitration scheme is used.
+    - Synchronization and Data Communication via a Shared Memory.
 7. **Design of Manycore MIPS Processor with On-Chip Network**
 
 
