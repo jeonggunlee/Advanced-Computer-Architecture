@@ -21,6 +21,7 @@ Welcome to Advanced Computer Architecture. In this class, we learn an internal s
     - ModelSim Simulator
     - Combination Circuit Design: Switches & LEDs
     - Sequential Circuit Design: Counter & Digital Watch Design
+    - [DE0 Nano FPGA board](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=165&No=593&PartNo=1) will be used in this course.
 4. **Design of a Single-Cycle MIPS Processor in Verilog HDL**
 5. **Design of Pipelined MIPS Processor**
 6. **Design of Manycore MIPS Processor with Shared Memory**
