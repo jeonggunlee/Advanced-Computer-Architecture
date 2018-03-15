@@ -23,7 +23,7 @@ Welcome to Advanced Computer Architecture. In this class, we learn an internal s
     - Combination Circuit Design: Switches & LEDs
     - Sequential Circuit Design: Counter & Digital Watch Design
     - [DE0 Nano FPGA board](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=165&No=593&PartNo=1) will be used in this course.
-4. **Design of a Single-Cycle MIPS Processor in Verilog HDL**
+4. **Design of a Single-Cycle MIPS Processor in Verilog HDL** ([SRC](https://github.com/jeonggunlee/Advanced-Computer-Architecture/tree/master/single_cycle_mips))
 5. **Design of Pipelined MIPS Processor**
 6. **Design of Manycore MIPS Processor with Shared Memory**
     - Synchronization and Data Communication via a Shared Memory
