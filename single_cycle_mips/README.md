@@ -1,7 +1,12 @@
 ## Single Cycle MIPS Source Code
 
-The following code shows an adder design with the functional/behavioral description, "result = a + b".
+다음 Verilog Code는 32-bit 덧셈기를 구현하고 있습니다. 아주 간단하죠 ?
+덧셈이 일어나는 부분이 ```assign result = a + b``` 문장으로 구현되고 있습니다.
+덧셈기를 만들기 위해서 전가산기 또는 반가산기 등의 회로가 필요없습니다.
+그저 덧셈기가 하는 기능을 기술만 하면 됩니다. 기능만을 기술함으로써 회로를 설계하는 것!
+이것이 바로 **행위수준 모델링 (Behavioral Modelling)**이죠.
 
+게다가 더 좋은 것은 비트 크기 값을 바꿈으로써 쉽게 덧셈기의 크기를 바꿀수 있습니다.
 ```verilog
 module add32(a, b, result);
   input [31:0] a, b;
@@ -11,7 +16,9 @@ module add32(a, b, result);
 endmodule
 ```
 
-The keyword, ```assign```, is used for dataflow modelling.
+```assign```은 **dataflow modelling**에 사용되는데, 일중의 기능중심의 행위수준 모델링 이라고 볼 수 있겠습니다.
+
+다음 코드는 2 to 1 Mux 회로를 기술하고 있습니다.
 
 ```verilog
 module mux2( sel, a, b, y );
