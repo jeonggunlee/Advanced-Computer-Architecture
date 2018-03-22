@@ -30,8 +30,8 @@ endmodule
 ```verilog
 module add(a, b, result);
   parameter bitwidth=32;
-  input [15:0] a, b;
-  output [15:0] result;
+  input [bitwidth:0] a, b;
+  output [bitwidth:0] result;
 
   assign result = a + b;
 endmodule
@@ -47,7 +47,7 @@ add (16) myadder(a, b, c);
 
 ```assign```은 **dataflow modelling**에 사용되는데, 일중의 기능중심의 행위수준 모델링 이라고 볼 수 있겠습니다.
 
-다음 코드는 2 to 1 Mux 회로를 기술하고 있습니다.
+다음 코드는 **2 to 1 Mux** 회로를 기술하고 있습니다.
 
 ```verilog
 module mux2( sel, a, b, y );
@@ -59,6 +59,17 @@ module mux2( sel, a, b, y );
     assign y = sel ? b : a;
 endmodule
 ```
+
+위 코드 역시 ```parameter```를 활용하여 회로의 비트폭 (bitwidth)를 설정하고 있습니다. 
+디폴트로 32비트로 설정되어 있음을 확인할수 있습니다.
+
+재미있는 것은 mux설계를 위하여 C언어에서 자주 사용되는 문장이 사용되고 있다는 것입니다.
+
+```verilog
+    assign y = sel ? b : a;
+```
+
+
 
 ```verilog
 module reg32 (clk, reset, d_in, d_out);
