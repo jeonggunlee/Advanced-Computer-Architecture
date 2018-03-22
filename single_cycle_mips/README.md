@@ -6,7 +6,7 @@
 그저 덧셈기가 하는 기능을 기술만 하면 됩니다. 기능만을 기술함으로써 회로를 설계하는 것!
 이것이 바로 **행위수준 모델링 (Behavioral Modelling)**이죠.
 
-게다가 더 좋은 것은 비트 크기 값을 바꿈으로써 쉽게 덧셈기의 크기를 바꿀수 있습니다.
+게다가 유익한 것은 비트 크기 값을 바꿈으로써 쉽게 덧셈기의 크기를 바꿀수 있습니다.
 ```verilog
 module add32(a, b, result);
   input [31:0] a, b;
@@ -15,6 +15,35 @@ module add32(a, b, result);
   assign result = a + b;
 endmodule
 ```
+
+만약 32비트 덧셈기가 아니라 16비트 덧셈기가 필요하다면, 위의 코드에서 데이터의 크기(32 -> 16) 만을 변경해주면 될 것입니다.
+```verilog
+module add16(a, b, result);
+  input [15:0] a, b;
+  output [15:0] result;
+
+  assign result = a + b;
+endmodule
+```
+
+이러한 변경가능한 파라미터를 좀더 쉽게 기술하기 위하여 ```parameter```라는 키워드를 사용할 수 있습니다.
+```verilog
+module add(a, b, result);
+  parameter bitwidth=32;
+  input [15:0] a, b;
+  output [15:0] result;
+
+  assign result = a + b;
+endmodule
+```
+
+위와 같이 기술한 경우 디폴트로 32비트 덧셈기가 되며, 만약 16비트 덧셈기가 필요한 경우 다음과 같이 instance를 생성하면됩니다.
+
+```verilog
+add (16) myadder(a, b, c);
+```
+
+위의 덧셈기 ```myadder```는 16비트 덧셈기로 생성됩니다. ```add```라는 하드웨어 타입과 실제 만들어지는 instance인 ```myadder```의 사이에 위치한 ```(16)```은 ```add``` 설계 내부의 ```parameter``` 값으로 전달되어 ```bitwidth``` 값이 default 값이 32에서 16으로 변경되도록 만듭니다.
 
 ```assign```은 **dataflow modelling**에 사용되는데, 일중의 기능중심의 행위수준 모델링 이라고 볼 수 있겠습니다.
 
