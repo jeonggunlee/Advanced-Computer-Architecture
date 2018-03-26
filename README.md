@@ -36,6 +36,7 @@ Welcome to Advanced Computer Architecture. In this class, we learn an internal s
 
 
 **Notice**
+ - 26 Mar.: Please install Intel Quartus II Software Tool on your computer (laptop).
  - 20 Mar.: [Introduction to Git/Github: Hands on Lab_2018. 3. 31(Sat)(in Korean)](https://docs.google.com/forms/d/e/1FAIpQLSfOOPkLq3dBOY98yRz9qHggdRZH1G9oL1A4YowY2ov2ZoLb0w/viewform). If you have time, it will be good for you to learn how to use Git/Github.
 
 * https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
