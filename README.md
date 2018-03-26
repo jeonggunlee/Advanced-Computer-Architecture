@@ -19,7 +19,7 @@ Welcome to Advanced Computer Architecture. In this class, we learn an internal s
     - Altera Verilog HDL Basic @ Youtube [LINK](https://www.youtube.com/watch?v=PJGvZSlsLKs)
     - Class Note - [PPT](https://github.com/jeonggunlee/Advanced-Computer-Architecture/blob/master/PPTs/DDCA_Ch4.ppt)
 3. **Introduction to an FPGA and Logic Implementation on an FPGA (Intel FPGA Board)**
-    - Intel Quartus II CAD Tool [Download Site](https://www.altera.com/downloads/download-center.html)
+    - Intel Quartus II CAD Tool (Lite Edition for FREE) [Download Site](https://www.altera.com/downloads/download-center.html)
     - ModelSim Simulator
     - Combination Circuit Design: Switches & LEDs
     - Sequential Circuit Design: Counter & Digital Watch Design
