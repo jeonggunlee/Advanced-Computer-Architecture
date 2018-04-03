@@ -5,7 +5,7 @@ module Test_tb;
 	reg	in1, in2;
 	wire	out;
 
-	intelFPGA mydesign (in1, in2, out);
+	myand mydesign (in1, in2, out);
 	
 	initial
 	begin
