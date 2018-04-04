@@ -21,7 +21,8 @@ Welcome to Advanced Computer Architecture. In this class, we learn an internal s
 3. **Introduction to an FPGA and Logic Implementation on an FPGA (Intel FPGA Board)**
     - Intel Quartus II CAD Tool (Lite Edition for FREE) [Download Site](https://www.altera.com/downloads/download-center.html)
     - ModelSim Simulator
-    - Combination Circuit Design: Switches & LEDs
+    - Combination Circuit Design: [Simple Adder Design & Test Bench](https://github.com/jeonggunlee/Advanced-Computer-Architecture/tree/master/SimpleDesignExam)
+    - Combination Circuit Design: Switches & LEDs    
     - Sequential Circuit Design: Counter & Digital Watch Design
     - [DE0 Nano FPGA board](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=165&No=593&PartNo=1) will be used in this course. [Manual](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=165&No=593&PartNo=4)
 4. **Design of a Single-Cycle MIPS Processor in Verilog HDL** ([Verilog Source](https://github.com/jeonggunlee/Advanced-Computer-Architecture/tree/master/single_cycle_mips))
