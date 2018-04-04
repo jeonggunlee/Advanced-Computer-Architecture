@@ -2,7 +2,7 @@ This directory includes few files for experiencing simple circuit design and sim
 
 ```verilog
 // myand.v
-module intelFPGA (in1, in2, out);
+module myand (in1, in2, out);
 	input in1, in2;
 	output out;
 
@@ -51,7 +51,7 @@ module Test_tb;
 	reg  [2:0]  testvectors[10:0]; // array of testvectors
 	
 
-	intelFPGA mydesign (in1, in2, out);
+	myand mydesign (in1, in2, out);
 
 
 	// generate clock
