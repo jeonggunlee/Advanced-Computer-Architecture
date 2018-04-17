@@ -11,6 +11,7 @@ module segdisplay(iCLK_50, oHEX0_D);
 	
 	reg	[26:0] cnt;
 	
+	// clock이 rising 할때마다 cnt 값을 1씩 증가
 	always @( posedge iCLK_50 )
 	begin
 		cnt = cnt + 1;
