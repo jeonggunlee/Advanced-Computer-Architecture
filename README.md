@@ -26,7 +26,7 @@ Welcome to Advanced Computer Architecture. In this class, we learn an internal s
     - Sequential Circuit Design: [Counter & Digital Watch Design](https://github.com/jeonggunlee/Advanced-Computer-Architecture/blob/master/PPTs/digital_counter.pptx)
        - [7 Segment:S-5101ASR](https://www.devicemart.co.kr/11551)
        - [4-Digit 7-Segment:S-3461CSR](https://www.devicemart.co.kr/11544)
-       - [LED Bar Movement Test Code] (https://github.com/jeonggunlee/Advanced-Computer-Architecture/blob/master/SimpleDesign2/ledmove.v)
+       - [LED Bar Movement Test Code](https://github.com/jeonggunlee/Advanced-Computer-Architecture/blob/master/SimpleDesign2/ledmove.v)
        - [BCD to 7-Segment Convertor in Verilog](https://github.com/jeonggunlee/Advanced-Computer-Architecture/blob/master/SimpleDesign2/bcd2seven.v)
     - [DE0 Nano FPGA board](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=165&No=593&PartNo=1) will be used in this course. [Manual](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=165&No=593&PartNo=4)
 4. **Design of a Single-Cycle MIPS Processor in Verilog HDL** ([Verilog Source](https://github.com/jeonggunlee/Advanced-Computer-Architecture/tree/master/single_cycle_mips))
