@@ -1,12 +1,13 @@
 //Verilog module.
 module segment7(bcd, seg);
      
-     //Declare inputs,outputs and internal variables.
+     //Input and output signals.
      input [3:0] bcd;
      output [6:0] seg;
      reg [6:0] seg;
 
-    //always block for converting bcd digit into 7 segment format
+    // always block for a bcd to 7-segment convertor circuit
+    // It will generate a combination circuit for the conversion.
     always @(bcd)
     begin
         case (bcd) //case statement
