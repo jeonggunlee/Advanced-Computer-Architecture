@@ -6,11 +6,10 @@
  >
  > **Final Project Submission Due: 20 June !**
  >
- > Project Summary: Please implement addi, bne, jump instructions to the single cycle MIPS processor core.
- >
- > You need to verify your design by testbench codes including such instructions.
- >
- > Finally, download your design to an FPGA and check its working.
+ > Project Summary: 
+ > 1. Please implement **addi**, **bne**, **jump** instructions to the single cycle MIPS processor core.
+ > 2. You need to verify your design by testbench codes including such instructions.
+ > 3. Finally, download your design to an FPGA and check its working.
  
 **Teaching Staff**
   - Prof. Jeong-Gun Lee
