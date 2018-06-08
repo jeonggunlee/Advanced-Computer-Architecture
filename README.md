@@ -3,7 +3,9 @@
 ## Advanced Computer Architecture, 2018
 
 **NOTICE**
- Final Project Submission Due: 20 June !
+ >
+ > **Final Project Submission Due: 20 June !**
+ >
  
 **Teaching Staff**
   - Prof. Jeong-Gun Lee
